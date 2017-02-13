@@ -12,3 +12,15 @@ def letter_histogram(word):
 letter_histogram('banana')
 
 #This is a dynamic dictionary because it is made after the program is run
+
+
+#This is an alternate solving of the problem"
+# word = 'bananas'
+#
+# counts = {}
+#
+# for char in word:
+#     if char not in counts:
+#         counts[char] = 1
+#     else:
+#         counts[char] = counts[char] + 1
